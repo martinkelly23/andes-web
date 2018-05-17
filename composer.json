@@ -55,6 +55,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false
-        }
+        },
+        "public-dir": "public_html"
     }
 }

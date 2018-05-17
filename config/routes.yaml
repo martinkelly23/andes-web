@@ -3,5 +3,5 @@
 #    controller: App\Controller\DefaultController::index
 
 views_home:
-    path: /home
+    path: /
     controller: App\Controller\ViewsController::home
