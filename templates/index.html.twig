@@ -57,34 +57,17 @@
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-12 text-right gtco-contact">
-					<ul class="">
-						<li><a href="#"><i class="ti-mobile"></i> +1 (0)123 456 7890 </a></li>
-						<li><a href="http://twitter.com/gettemplatesco"><i class="ti-twitter-alt"></i> </a></li>
-						<li><a href="#"><i class="icon-mail2"></i></a></li>
-						<li><a href="#"><i class="ti-facebook"></i></a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="index.html">Andes Global <em>.</em></a></div>
+					<div id="gtco-logo"><a href="#gtco-header">Andes Global <em>.</em></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li class="active"><a href="#gtco-header">Inicio</a></li>
+						<li><a href="#gtco-features-3">Nosotros</a></li>
+						<li><a href="#gtco-features">Servicios</a></li>
+						<li><a href="#gtco-portfolio">Portfolio</a></li>
+						<li><a href="#gtco-footer">Contacto</a></li>
+						<li><a href="blog">Blog</a></li>
 					</ul>
 				</div>
 			</div>
@@ -93,23 +76,28 @@
 	</nav>
 
 	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
-		<div class="overlay"></div>
+		<div class="overlay">
+			<video autoplay loop muted preload="auto">
+				<source type="video/mp4" src="videos/videoplayback.mp4" media="(orientation:landscape)">
+				<source type="video/webm" src="videos/videoplayback.webm" media="(orientation:landscape)">
+			</video>
+		</div>
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 text-left">
 					<div class="display-t">
 						<div class="display-tc">
-
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Your Business To The Next Level</h1>
-
-							<h2 class="animate-box" data-animate-effect="fadeInUp">Free HTML5 Bootstrap Templates Made <em>by</em> <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a></h2>
-
-							<p class="animate-box" data-animate-effect="fadeInUp"><a href="#" class="btn btn-white btn-lg btn-outline">Get In Touch</a></p>
+							<h1 class="animate-box" data-animate-effect="fadeInUp">
+								<div>
+									Creamos soluciones digitales
+								</div>
+								<div>
+									para impulsarte al éxito.
+								</div>
+							</h1>
+							<p class="animate-box" data-animate-effect="fadeInUp"><a href="#gtco-footer" class="btn btn-white btn-lg btn-outline">CONTACTANOS</a></p>
 							<div class="col-md-12 text-center">
 								<a href="#" onclick="return goDown();" style="opacity: 1;">
-									<div class="animate-box" data-animate-effect="fadeInUp">
-										EXPLORE
-									</div>
 									<div class="animate-box" data-animate-effect="fadeInUp">
 										<img src="/images/down.png">
 									</div>
@@ -123,7 +111,7 @@
 		</div>
 	</header>
 
-	<div id="gtco-features-3">
+	<div id="gtco-features-3" name="nosotros">
 		<div class="gtco-container">
 			<div class="gtco-flex">
 				<div class="feature feature-1 animate-box" data-animate-effect="fadeInUp">
@@ -164,7 +152,7 @@
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-					<h2>Aesthetic Features</h2>
+					<h2>¿Cómo lo hacemos?</h2>
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
@@ -368,47 +356,13 @@
 		</div>
 	</div>
 
-
-
-	<div id="gtco-subscribe">
-		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-					<h2>Subscribe</h2>
-					<p>Be the first to know about the new templates.</p>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-12">
-					<form class="form-inline">
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Your Email">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="form-group">
-								<label for="name" class="sr-only">Name</label>
-								<input type="text" class="form-control" id="name" placeholder="Your Name">
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<button type="submit" class="btn btn-default btn-block">Subscribe</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<footer id="gtco-footer" role="contentinfo">
 		<div class="gtco-container">
 			<div class="row row-p	b-md">
 
 				<div class="col-md-4">
 					<div class="gtco-widget">
-						<h3>About Us</h3>
+						<h3>Sobre nosotros</h3>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos molestias quod sint ipsum possimus temporibus officia iste perspiciatis consectetur in fugiat repudiandae cum. Totam cupiditate nostrum ut neque ab?</p>
 					</div>
 				</div>
@@ -417,22 +371,20 @@
 					<div class="gtco-widget">
 						<h3>Links</h3>
 						<ul class="gtco-footer-links">
-							<li><a href="#">Knowledge Base</a></li>
-							<li><a href="#">Career</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Terms of services</a></li>
-							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Sumate!</a></li>
+							<li><a href="#">Prensa</a></li>
+							<li><a href="#">Terrminos de privacidad</a></li>
 						</ul>
 					</div>
 				</div>
 
 				<div class="col-md-4">
 					<div class="gtco-widget">
-						<h3>Get In Touch</h3>
+						<h3>Contactanos</h3>
 						<ul class="gtco-quick-contact">
-							<li><a href="#"><i class="icon-phone"></i> +1 234 567 890</a></li>
-							<li><a href="#"><i class="icon-mail2"></i> info@gettemplates.co</a></li>
-							<li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+							<li><a href="#"><i class="icon-phone"></i> +54 221-5748199</a></li>
+							<li><a href="#"><i class="icon-mail2"></i> info@andesglob.com</a></li>
+							<li><a href="#"><i class="icon-chat"></i> Chat en vivo</a></li>
 						</ul>
 					</div>
 				</div>
@@ -442,8 +394,8 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left">
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
-						<small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; 2018 Andes Global. All Rights Reserved.</small>
+						<small class="block">Designed by <a href="http://andesglob.com/" target="_blank">Andes Global</a></small>
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right">

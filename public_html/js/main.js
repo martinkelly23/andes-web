@@ -331,8 +331,17 @@
 }());
 
 // Function to navigate down in the page
-	var goDown = function() {
-		$('html, body').animate({
-			scrollTop: 600
-		}, 500, 'easeInOutExpo');
+var goDown = function() {
+	$('html, body').animate({
+		scrollTop: 600
+	}, 500, 'easeInOutExpo');
+}
+
+$(window).scroll(function() {    
+	var scroll = $(window).scrollTop();
+	if (scroll >= 50) {
+		$(".gtco-nav").addClass("sticky");
+	} else {
+		$(".gtco-nav").removeClass("sticky");
 	}
+});
