@@ -1716,6 +1716,8 @@ form label {
   right: 2em;
   position: absolute;
   z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px;
 }
 @media screen and (max-width: 768px) {
   #gtco-portfolio-list li a .case-studies-summary {
@@ -1893,6 +1895,10 @@ form label {
 .sticky {
   background: #14171c;
   transition: 2.5s;
+}
+
+.job-dark {
+  color: darkslategrey;
 }
 
 /*# sourceMappingURL=style.css.map */
