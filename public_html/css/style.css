@@ -1643,7 +1643,7 @@ form label {
   list-style: none;
   min-height: 400px;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   float: left;
   clear: left;
